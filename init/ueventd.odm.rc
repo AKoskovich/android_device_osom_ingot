@@ -49,8 +49,5 @@ external_firmware_handler /devices/platform/soc/soc:qcom,guestvm_loader@e0b00000
 # NFC
 /dev/st21nfc              0660   nfc    nfc
 
-#eSE device
-/dev/st54spi              0660   secure_element secure_element
-
 # Trusted touch
 /sys/devices/platform/soc/990000.i2c/i2c-*/*-0038 trusted_touch_enable 0660 system root

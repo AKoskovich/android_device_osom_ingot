@@ -926,7 +926,6 @@ vendor/bin/mlid
 vendor/lib64/libminksocket_vendor.so
 
 # NFC configs
-vendor/etc/libese-hal-st.conf
 vendor/etc/libnfc-hal-st.conf
 vendor/etc/libnfc-nci.conf
 

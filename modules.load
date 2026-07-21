@@ -199,7 +199,6 @@ spmi-pmic-arb-debug.ko
 sps_drv.ko
 spss_utils.ko
 st21nfc.ko
-st54spi.ko
 stm_console.ko
 stm_core.ko
 stm_ftrace.ko
