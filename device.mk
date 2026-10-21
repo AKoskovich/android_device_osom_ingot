@@ -159,7 +159,8 @@ $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
 # Display
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/display_config_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_port_130.xml
+    $(LOCAL_PATH)/configs/display_config_ingot.xml:$(TARGET_COPY_OUT_VENDOR)/etc/displayconfig/display_port_130.xml \
+    $(LOCAL_PATH)/configs/qdcm_calib_data_e667_amoled_cmd_mode_dsi_everdisplay_panel.json:$(TARGET_COPY_OUT_VENDOR)/etc/display/qdcm_calib_data_e667_amoled_cmd_mode_dsi_everdisplay_panel.json
 
 PRODUCT_PACKAGES += \
     android.hardware.graphics.mapper@4.0-impl-qti-display \
